@@ -57,6 +57,7 @@ STREAMLIT_PROJECT
 Aplikasi dapat diakses melalui link berikut:
 
 👉 Streamlit App – Customer Churn Prediction
+https://churn-prediction-ds38.streamlit.app
 
 
 ## 👩‍💻 Author
