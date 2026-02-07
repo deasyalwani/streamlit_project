@@ -1,6 +1,11 @@
 import streamlit as st
 
-st.set_page_config(layout="wide")
+st.set_page_config(
+    page_title="Customer Churn Prediction",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
+
 
 # =========================
 # HERO HEADER
