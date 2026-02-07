@@ -2,8 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Customer Churn Prediction",
-    layout="wide",
-    initial_sidebar_state="collapsed"
+    layout="wide"
 )
 
 
@@ -27,9 +26,7 @@ st.markdown(
 st.markdown(
     """
     Aplikasi ini menampilkan hasil analisis dan model prediksi customer churn
-    yang dikembangkan sebagai bagian dari portfolio Data Science.
-
-    Dalam kasus ini, dilakukan analisis customer churn prediction menggunakan pendekatan supervised machine learning classification pada dataset pelanggan telekomunikasi. Customer churn merupakan kondisi di mana pelanggan memutuskan untuk berhenti menggunakan layanan perusahaan. Masalah ini menjadi krusial karena pada prakteknya, mempertahankan pelanggan lama umumnya lebih efisien dibandingkan mengakuisisi pelanggan baru, sehingga perusahaan perlu mengambil langkah yang tepat untuk mengatasinya. Tujuan utama dari analisis ini adalah untuk membangun model prediksi yang mampu mengidentifikasi pelanggan yang berpotensi melakukan churn, sehingga perusahaan dapat menyusun strategi retensi pelanggan yang lebih proaktif dan tepat sasaran.
+    yang dikembangkan untuk membangun model prediksi yang mampu mengidentifikasi pelanggan yang berpotensi melakukan churn, sehingga perusahaan dapat menyusun strategi retensi pelanggan yang lebih proaktif dan tepat sasaran.
     """
 )
 
